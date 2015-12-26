@@ -1,0 +1,22 @@
+﻿
+Sr.No 	Phương pháp và mô tả
+1	copy(Bitmap.Config config, isMutable boolean)
+Phương pháp này sao chép các điểm ảnh của bitmap này vào bitmap mới
+2	createBitmap(DisplayMetrics display, int width, int height, Bitmap.Config config)
+Trả về một bitmap có thể thay đổi với chiều rộng và chiều cao quy định
+3	createBitmap (int width, int height, Bitmap.Config config)
+Trả về một bitmap có thể thay đổi với chiều rộng và chiều cao quy định
+4	createBitmap (Bitmap src)
+Trả về một bitmap bất biến từ nguồn bitmap
+5	extractAlpha ()
+Trả về một bitmap mới mà bắt các giá trị alpha của bản gốc
+6	getConfig ()
+Đây mehtod eturn config mà, nếu không trả về null
+7	getDensity ()
+Trả về mật độ cho bitmap này
+8	getRowBytes ()
+Trả lại số byte giữa các hàng trong pixels của bitmap
+9	SetPixel (int x, int y, int color)
+Viết Màu chỉ định vào các bitmap (giả sử nó là có thể thay đổi) tại x, y phối hợp
+10	setDensity(int density)
+Phương pháp này chỉ định mật độ cho bitmap này
